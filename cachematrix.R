@@ -17,7 +17,6 @@ splmatrix <<- x
 }
 
 
-# ------------------------------------------------------------------------------------------------------
 ## This function again takes a 2 X 2 matrix and check if its already there in cache and inverse is calculated 
 ## if TRUE cached inverse is returned  else the matrix passed will be turned into special matrix and its inverse will be calculated through
 ## makeCacheMatrix  and invere is returned.
